@@ -30,4 +30,4 @@ jobs:
         fi
 
     - name: Build
-      run: ls ../../bla/bla
+      run: go build -v ../../bla/bla
