@@ -30,4 +30,4 @@ jobs:
         fi
 
     - name: Build
-      run: pwd
+      run: go build -v ../../
